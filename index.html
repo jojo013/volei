@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venda de Chuteiras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="dark-mode"> 
+        <div class="logo">
+            <img class="no-border" src="nina.png" alt="Logo">
+        </div>        
+        <h1>Volley shop</h1>
+        </div>
+        
+    <div class="cart">
+        <img class="no-border" src="carrinho.png" alt="Carrinho de Compras">
+        <span class="cart-count">0</span>
+    </div>
+    </header>
+    
+    <center>
+        <h3>Modo claro</h3>
+    <label class="switch">
+        <input type="checkbox" id="mode-switch">
+      <span class="slider round"></span></center>
+    <main>
+        <div class="slideshow-container">
+            <div class="slide fade">
+                <img src="volei1.png" alt="volei1">
+            </div>
+            <div class="slide fade">
+                <img src="volei2.png" alt="volei2">
+            </div>
+            <div class="slide fade">
+                <img src="volei.png" alt="Volei">
+            </div>
+        </div>
+       <br>
+       <center>
+        <div class="product">
+            <img src="tenis1.png" alt="Mizuno Thunder Blade 3">
+            <h2>Mizuno Thunder Blade 3</h2>
+            <p>R$ 649,99</p>
+            <button class="like-btn" onclick="toggleLike(this)">Curtir</button>
+        </div>
+        <div class="product">
+            <img src="bola1.png" alt="Mikasa V370W">
+            <h2>Mikasa V370W</h2>
+            <p>R$ 229,99</p>
+            <button class="like-btn" onclick="toggleLike(this)">Curtir</button>
+        </div>
+        <div class="product">
+            <img src="joelheira.png" alt="Joelheira de Compressão">
+            <h2>Joelheira de Compressão</h2>
+            <p>R$ 59,90</p>
+            <button class="like-btn" onclick="toggleLike(this)">Curtir</button>
+        </div>
+        <div class="product">
+            <img src="munhequeira.png" alt="Munhequeira arrow muvin">
+            <h2>Munhequeira Arrow Muvin</h2>
+            <p>R$ 35,90</p>
+            <button class="like-btn" onclick="toggleLike(this)">Curtir</button>
+        </div>
+    </center>
+
+        <div class="cart-container">
+            <h2>Carrinho de Compras</h2>
+            <ul class="cart-items"></ul>
+            <button class="checkout-btn">Finalizar Compra</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
